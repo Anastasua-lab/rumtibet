@@ -442,7 +442,7 @@ body {
     position: relative;
 }
 
-/* Задний фон всей секции (как в Figma) */
+/* Задний фон всей секции  */
 .popular::before {
     content: '';
     position: absolute;
@@ -492,7 +492,7 @@ body {
     display: block;
 }
 
-/* КНОПКА (ТОЧНЫЕ ПАРАМЕТРЫ ИЗ FIGMA) */
+/* КНОПКА  */
 .popular-btn-wrapper {
     display: flex;
     justify-content: center;
@@ -518,3 +518,81 @@ body {
 .popular-btn:hover {
     background: #2a5a5a;
 }
+
+/* БЛОК 5: БЛОГ О ПУТЕШЕСТВИЯХ */
+.blog {
+    padding: 60px 0;
+    background: #F3F5F4;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #F2BE22;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.blog-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #18121E;
+    margin: 0;
+}
+
+.blog-image {
+    width: 1180px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.blog-btn {
+    width: 220px;
+    height: 52px;
+    background: #1A3E3E;
+    padding: 16px 36px;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FDFDFD;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.blog-btn:hover {
+    background: #2a5a5a;
+}
+
+
+
+
+
+
+
