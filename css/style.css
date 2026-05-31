@@ -589,7 +589,75 @@ body {
 .blog-btn:hover {
     background: #2a5a5a;
 }
+/* БЛОК 6: ФОТО-ОТЧЕТ */
+.photoreport {
+    padding: 60px 0;
+    background: #FFFFFF;
+}
 
+.photoreport-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.photoreport-label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #F2BE22;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.photoreport-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #18121E;
+    margin: 0;
+}
+.photoreport-image {
+    width: 1180px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.photoreport-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photoreport-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.photoreport-btn {
+    width: 178px;
+    height: 52px;
+    background: #1A3E3E;
+    padding: 16px 36px;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FDFDFD;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.photoreport-btn:hover {
+    background: #2a5a5a;
+}
 
 
 
